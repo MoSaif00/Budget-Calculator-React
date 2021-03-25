@@ -112,7 +112,7 @@ function App() {
       <h1>
         Total spending :{' '}
         <span className="total">
-          $
+          €
           {expenses.reduce((acc, currentValue) => {
             return (acc += parseInt(currentValue.amount));
           }, 0)}
