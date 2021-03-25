@@ -199,3 +199,10 @@ label {
     flex: 0 0 50%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
