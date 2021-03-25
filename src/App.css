@@ -175,6 +175,13 @@ label {
 .alert-success {
   background: var(--mainGreen);
 }
+@media screen and (max-width: 500px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+  }
+}
 @media screen and (min-width: 601px) {
   .App,
   .list,
@@ -197,12 +204,5 @@ label {
   }
   .info {
     flex: 0 0 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .form-container {
-    display: flex;
-    flex-direction: row;
   }
 }
