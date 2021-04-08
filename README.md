@@ -14,7 +14,7 @@
 - You can clear all the data with one click.
 - You get an alert message for each event you do in the app.
 
-## Inspiration
+## CodeAlong with 
 
 [
 Coding Addict](https://www.youtube.com/watch?v=f6HYLHrYpGs)
